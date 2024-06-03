@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  padding: 10px;
+  margin-left: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.downicon {
+  color: #d9d9d9;
+}
+
+.header .logo:hover {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.header button {
+  background: none;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.main {
+  width: 100%;
+  height: 90vh;
+  display: grid;
+  grid-template-rows: 50% 30% 20%;
+}
+.logo-tit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 3%;
+  gap: 10px;
+}
+.logo-tit .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d9d9d9;
+  width: 3%;
+  padding: 5px;
+  border-radius: 100%;
+}
+.logo-tit .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tit h2 {
+  font-weight: 458;
+}
+
+.advice {
+  height: 100%;
+  width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 98%;
+  height: 87%;
+  border: 1px solid #d9d9d9;
+  padding: 3%;
+  margin: 10px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.card:hover{
+  background-color: #f9f9f9;
+}
+.cardall{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 2px;
+}
+.hic button{
+  width: 80%;
+  height: 100%;
+  background: none;
+  border:none;
+  background-color: white;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardbtn{
+  font-weight: 700;
+}
+.card:hover .hic button{
+  display: flex;
+  padding:6px 10px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.hic button{
+  display: none;
+}
+.card .tit-small p {
+  opacity: 50%;
+  font-size: 13px;
+}
+
+.inpp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.allinp {
+  width: 700px;
+  height: 50%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 90% 5%;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+.textinp {
+  width: 98%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textinp input {
+  width: 95%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+.allinp .btn {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.coloricon {
+  color: white;
+  font-size: 20px;
+}
+.allinp .btn button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
